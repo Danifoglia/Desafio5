@@ -1,0 +1,17 @@
+extends layout
+
+block products 
+    
+    h1 Lista de productos:
+    if length 
+            each producto in productos
+                    p <b>Nombre:</b> <th=producto.title
+                    th=producto.title
+                    p <b>Precio:</b> <th=producto.price
+                    th=producto.price
+                    p <b>Imagen:</b> <th=producto.thumbnail
+                    th=producto.thumbnail
+            
+    else
+        br
+        h2 No hay productos en la lista!
